@@ -1,5 +1,5 @@
 
-hello
+hello guys
 
 how r u
 
@@ -7,3 +7,7 @@ hii
 how can i help u
 
 this is my first file
+
+This file comes before the others
+git is tracking
+ha haa
