@@ -1,0 +1,50 @@
+git status
+git restore staged --index.html 
+git restore --staged index.html 
+git status
+git add index.html
+git status
+git log
+git commit -m "restore"
+git status
+git log --oneline
+git restore index.html --source=5b5b845
+git status
+git diff
+git diff index.html
+git restore index.html
+git status
+git log --oneline
+git add .
+git commit -m "About.html"
+git log
+git commit --amend
+git log
+git status
+git add .
+git status
+git commit --ammend
+git commit --amend
+git status
+git log
+git show
+git show --stat
+git log --oneline
+git show --color-words 43ef0c6
+git revert 43ef0c6
+git log --oneline
+git show --color-words ace8d75
+git status
+git clean -n
+git clean
+git add junk1.txt
+git clean -n
+git clean -f
+git status
+git restore --staged junk1.txt
+git status
+git clean -n
+git clean -f
+git clean -n
+git clean --dry-run
+doskey /history > history.txt
