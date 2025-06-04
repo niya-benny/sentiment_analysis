@@ -1,0 +1,29 @@
+prompt $G$G$G
+git branch
+type .git\HEAD
+git commit -am "Edit title of StaticAbout page"
+git switch master
+sit status
+git status
+git add.
+git add .
+git switch new_feature
+git status
+git commit -m "history command file"
+git status
+git log --oneline
+git show fbf9b0f
+git switch master
+git log --oneline
+git switch new_feature
+git branch master
+git switch master
+git status
+git switch master
+git switch new_feature
+git status
+git restore Static-About.html
+git restore Big_Star_Collectibles/Static-About.html
+git status
+doskey /history history.txt
+doskey /history>> history.txt
