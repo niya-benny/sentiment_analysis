@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 prompt $G$G$G
 git branch
 type .git\HEAD
@@ -27,3 +28,107 @@ git restore Big_Star_Collectibles/Static-About.html
 git status
 doskey /history history.txt
 doskey /history>> history.txt
+=======
+git status
+git restore staged --index.html 
+git restore --staged index.html 
+git status
+git add index.html
+git status
+git log
+git commit -m "restore"
+git status
+git log --oneline
+git restore index.html --source=5b5b845
+git status
+git diff
+git diff index.html
+git restore index.html
+git status
+git log --oneline
+git add .
+git commit -m "About.html"
+git log
+git commit --amend
+git log
+git status
+git add .
+git status
+git commit --ammend
+git commit --amend
+git status
+git log
+git show
+git show --stat
+git log --oneline
+git show --color-words 43ef0c6
+git revert 43ef0c6
+git log --oneline
+git show --color-words ace8d75
+git status
+git clean -n
+git clean
+git add junk1.txt
+git clean -n
+git clean -f
+git status
+git restore --staged junk1.txt
+git status
+git clean -n
+git clean -f
+git clean -n
+git clean --dry-run
+doskey /history > history.txt
+
+git status
+git log --oneline
+git show 4e2bcbd
+git show master
+git show main
+git branch
+dir .git
+type .git/HEAD
+ls .git
+cd C:\Users\Niya.Benny\PycharmProjects\gitproj
+dir .git
+type .git/HEAD
+cat .git/HEAD
+type .git\HEAD
+dir .git\refs
+dir .git\refs\heads
+type .git\refs\heads\master
+git log --oneline
+git diff 9ee3ce3..HEAD
+git log
+git log --oneline
+git show -s --oneline
+git show -s --oneline 4e2bcbd
+git show -s --oneline 4e2bcbd^
+git show -s --oneline 2f1b8b0^
+git show -s --oneline "2f1b8b0^"
+git show -s --oneline "2f1b8b0^^"
+git show -s --oneline "HEAD~6"
+git log --oneline "HEAD~6..HEAD^^"
+git log --stat    
+git log --graph
+git log --graph --all --oneline --decorate
+git log -n 1
+git log -n 1 --format=oneline
+git log -n 1 --oneline
+git log -n 1 --format=short
+git log -n 1 --format=medium
+git log -n 1 --format=fuller
+git log -n 1 --format=email
+git log -n 1 --format=raw
+git log -p
+git log --stat
+git log --graph
+git branch
+git branch new_feature
+git branch
+dir .git\refs\heads
+git switch new_feature
+git branch
+doskey /history >> history.txt
+
+>>>>>>> seo_edits
