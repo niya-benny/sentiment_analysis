@@ -132,3 +132,53 @@ git branch
 doskey /history >> history.txt
 
 >>>>>>> seo_edits
+git switch -c reset
+git log --oneline 
+git reset --soft 6c20112
+git status
+git log --oneline 
+git reset --soft 6c20112
+git log --oneline
+git commit -am "add pls in Cart.html"
+git status
+git diff --staged
+ git status
+git commit -am "change price and add ! in Product list"
+git branch pre_set
+git reset --mixed HEAD^
+ git status
+git reset --mixed HEAD^
+git reset --mixed HEAD~1
+git status
+git log --oneline
+git add Big_Star_Collectibles/Product-List.html
+git commit -m "change price and add !"
+git status
+git log --graph --oneline -all --decorate
+git log --graph --oneline --all --decorate
+git log --oneline
+git reset --hard 6c20112
+git status
+git log --oneline
+git reset --hard 3b89b7e
+git log --oneline
+git log --graph --oneline --all --decorate
+git switch experimenta
+git switch experimental
+git reset --hard master
+git switch master
+git log --graph --oneline --all --decorate
+git status
+git diff
+git switch reset
+git switch master
+git stash push
+git status
+git switch reset
+git status
+git switch master
+git switch reset
+git stash push -m "edits to MIndigo"
+git switch master
+git stash list
+doskey /history >> history.txt
